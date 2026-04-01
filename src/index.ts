@@ -8,7 +8,7 @@ import { registerSearchProjects } from "./tools/search-projects.js";
 import { registerGetProjectUpdates } from "./tools/get-project-updates.js";
 
 const server = new McpServer({
-  name: "atlassian-goals-mcp",
+  name: "atlassian-goals-projects-mcp",
   version: "1.0.0",
 });
 

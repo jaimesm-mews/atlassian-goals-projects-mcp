@@ -59,8 +59,8 @@ The JSON response contains a `cloudId` field — copy that UUID value.
 ## Step 3: Clone and build
 
 ```bash
-git clone https://github.com/your-org/atlassian-goals-mcp.git
-cd atlassian-goals-mcp
+git clone https://github.com/your-org/atlassian-goals-projects-mcp.git
+cd atlassian-goals-projects-mcp
 npm install
 npm run build
 ```
@@ -87,7 +87,7 @@ Add to your Cursor MCP config (`.cursor/mcp.json` in your project, or via Cursor
   "mcpServers": {
     "atlassian-goals-projects": {
       "command": "node",
-      "args": ["/Users/yourname/atlassian-goals-mcp/dist/index.js"],
+      "args": ["/Users/yourname/atlassian-goals-projects-mcp/dist/index.js"],
       "env": {
         "ATLASSIAN_BASE_URL": "https://mews.atlassian.net",
         "ATLASSIAN_EMAIL": "you@mews.com",
@@ -106,7 +106,7 @@ Add to your Cursor MCP config (`.cursor/mcp.json` in your project, or via Cursor
   "mcpServers": {
     "atlassian-goals-projects": {
       "command": "node",
-      "args": ["C:\\Users\\YourName\\atlassian-goals-mcp\\dist\\index.js"],
+      "args": ["C:\\Users\\YourName\\atlassian-goals-projects-mcp\\dist\\index.js"],
       "env": {
         "ATLASSIAN_BASE_URL": "https://mews.atlassian.net",
         "ATLASSIAN_EMAIL": "you@mews.com",
@@ -130,7 +130,7 @@ Add to your Claude config file:
   "mcpServers": {
     "atlassian-goals-projects": {
       "command": "node",
-      "args": ["/absolute/path/to/atlassian-goals-mcp/dist/index.js"],
+      "args": ["/absolute/path/to/atlassian-goals-projects-mcp/dist/index.js"],
       "env": {
         "ATLASSIAN_BASE_URL": "https://mews.atlassian.net",
         "ATLASSIAN_EMAIL": "you@mews.com",

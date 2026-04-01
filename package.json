@@ -1,10 +1,10 @@
 {
-  "name": "atlassian-goals-mcp",
+  "name": "atlassian-goals-projects-mcp",
   "version": "1.0.0",
   "description": "MCP server for Atlassian Goals and Projects (Townsquare GraphQL API)",
   "main": "dist/index.js",
   "bin": {
-    "atlassian-goals-mcp": "dist/index.js"
+    "atlassian-goals-projects-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
