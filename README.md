@@ -59,7 +59,7 @@ The JSON response contains a `cloudId` field — copy that UUID value.
 ## Step 3: Clone and build
 
 ```bash
-git clone https://github.com/your-org/atlassian-goals-projects-mcp.git
+git clone https://github.com/jaimesm-mews/atlassian-goals-projects-mcp.git
 cd atlassian-goals-projects-mcp
 npm install
 npm run build
